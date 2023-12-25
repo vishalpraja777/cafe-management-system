@@ -14,7 +14,7 @@ import jakarta.persistence.NamedQuery;
 import jakarta.persistence.Table;
 import lombok.Data;
 
-@NamedQuery(name = "Category.getAllCategory", query = "Select c from Category c")
+@NamedQuery(name = "Category.getAllCategory", query = "Select c from Category c where c.id in (select p.category from Product p where p.status='true')")
 
 @Data
 @Entity

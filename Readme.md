@@ -55,3 +55,19 @@
 - Create Category POJO class
 - Create Category DAO Interface
 - Create Category REST and Service Interfaces and Classes
+
+# Create Product Interfaces and classes
+- Create Product POJO class
+- Create Category DAO Interface
+- Create Rest and Service Interfaces and classes
+- Implement all the apis and methods
+
+# Create Bill Interface and classes
+- Create rest, rest impl, service and service impl imterface and classes
+- GenerateReport API
+- - Write the logic in the Service Impl class
+- - 
+
+mysql -u root -p
+123456789
+use cafemanagement;
