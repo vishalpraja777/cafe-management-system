@@ -66,7 +66,13 @@
 - Create rest, rest impl, service and service impl imterface and classes
 - GenerateReport API
 - - Write the logic in the Service Impl class
-- - 
+- - Validate the request
+- - Create data
+- - Create Document and get pdfwriter instance
+- - Set rectangle, write heading and data, ceate table and write footer
+
+# Create Dashboard Interface and classes
+- To get the count of product, category and bill
 
 mysql -u root -p
 123456789
